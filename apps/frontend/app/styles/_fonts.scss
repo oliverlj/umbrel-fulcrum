@@ -1,0 +1,5 @@
+@use '@fontsource/inter/scss/mixins' as Inter;
+
+@each $weight in 100, 200, 300, 400, 500, 600, 700, 800, 900 {
+  @include Inter.fontFace($fontName: 'Inter', $fontDir: '@fontsource/inter', $weight: $weight);
+}

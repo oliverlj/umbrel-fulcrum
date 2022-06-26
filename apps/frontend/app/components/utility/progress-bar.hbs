@@ -1,0 +1,14 @@
+<div class="w-full bg-gray-200 dark:bg-neutral-700 relative overflow-hidden rounded-full" ...attributes>
+  <div
+    class="h-full progressbar rounded-full {{@colorClass}}"
+    role="progressbar"
+    style="width: {{this.percentage}}"
+    aria-valuenow={{this.percentage}}
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <span class="flex items-center h-full">
+      {{! <slot></slot> }}
+    </span>
+  </div>
+</div>
